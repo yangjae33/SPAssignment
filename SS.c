@@ -28,7 +28,7 @@ void subject_register(struct Subject* subject,int* count){
     struct Subject sub;
     printf("과목 번호 : ");
     sub.subject_num = scanf("%d",&num);
-    printf("과목명 : ");
+    printf("과목명 : ");xrc vbhjnkm
     sub.subject_name = scanf("%s",&name);
     printf("시작 시간(교시) : ");
     sub.start = scanf("%d",&start);
